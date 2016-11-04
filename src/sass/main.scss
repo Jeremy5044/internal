@@ -1,0 +1,56 @@
+*{
+border-box:box-sizing;
+}
+
+body{
+	 width: 1000;
+    height: 900px;
+    margin: 0 0 0 6px;
+}
+.list{
+	width:1500px;
+	height:500px;
+}
+.format{
+	float:right;
+	display:inline-block;
+	margin:10px;
+}
+
+.picture{
+	height: 300px;
+    width: 300px
+}
+.name{
+	text-align:center;  
+    font-size: x-large;
+    text-decoration: underline;
+    text-indent: 1px;
+}
+.email{
+	text-align:center;
+	text-indent: 1px;
+	margin:10px;
+	font-size:30px;
+	font-size: 18px
+}
+.zip{
+	text-align:center;
+	text-indent: 1px;
+	margin:10px;
+}
+.street{
+	text-align:center;
+    text-indent: 1px;
+    margin:10px;
+}
+.state{
+	text-align:center;
+	text-indent: 1px;
+    margin:10px;
+}
+.number{
+	text-align:center;
+    margin:10px;
+
+}
