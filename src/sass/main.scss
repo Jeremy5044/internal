@@ -10,10 +10,10 @@ body{
 .list{
 	width:1500px;
 	height:500px;
+	display:inline-block;
 }
 .format{
 	float:right;
-	display:inline-block;
 	margin:10px;
 }
 
@@ -26,6 +26,7 @@ body{
     font-size: x-large;
     text-decoration: underline;
     text-indent: 1px;
+    color:blue;
 }
 .email{
 	text-align:center;
