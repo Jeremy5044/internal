@@ -3,37 +3,49 @@ border-box:box-sizing;
 }
 
 body{
-	 width: 1000;
-    height: 900px;
+	width: 1000px;
+    height: 1000px;
     margin: 0 0 0 6px;
 }
-.list{
-	width:1500px;
-	height:500px;
-	display:inline-block;
+img.picture{
+	border:solid;
 }
+.list{
+	  width: 1000px;
+    height: 1170px;
+    display: inline-block;
+    margin-left: 90px;
+    border: none;
+    padding-right: 25px;
+    }
 .format{
-	float:right;
-	margin:10px;
+	    float: right;
+    margin: 10px;
+    width: 227px;
+    height: 370px;
+    margin-right: 10px;
+	
 }
 
 .picture{
-	height: 300px;
-    width: 300px
+	height: 200px;
+    width: 200px
 }
 .name{
 	text-align:center;  
     font-size: x-large;
     text-decoration: underline;
     text-indent: 1px;
-    color:blue;
+    color:green;
 }
 .email{
-	text-align:center;
-	text-indent: 1px;
-	margin:10px;
-	font-size:30px;
-	font-size: 18px
+	  text-align: center;
+    text-indent: 0px;
+    margin: 7px;
+    font-size: 30px;
+    font-size: 16px;
+    padding-right: 18px;
+
 }
 .zip{
 	text-align:center;
@@ -50,8 +62,27 @@ body{
 	text-indent: 1px;
     margin:10px;
 }
+.number:hover{
+	text-align:center;
+    margin:15px;
+    color:green;
+    font-size: 15px;
+
+}
+
 .number{
 	text-align:center;
-    margin:10px;
-
+    margin:15px;
+    color:green;
+    font-size: 15px;
+   }
+   .SSN:hover{
+   	text-align:center;
+   	font-size:15px;
+   	color:green;
+   }
+.SSN{
+	text-align:center;
+	color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }

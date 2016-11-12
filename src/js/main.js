@@ -32,6 +32,7 @@ var HTML=`
 <div class="email">${prop.email}</div>
 <div class="street">${prop.location.street}</div>
 <div class="number">${prop.cell}</div>
+<div class="SSN">${prop.id.value}</div>
 
 
 </div>
